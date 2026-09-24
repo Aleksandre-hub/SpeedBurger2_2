@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7596550040362267970
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7596550040362268028}
+  - component: {fileID: 7596550040362268029}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7596550040362268028
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7596550040362267970}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.719435, y: 0.06974899, z: 221.81836}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7596550040362268029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7596550040362267970}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2af7ff33ba9f5754cbda43c79428c2b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: ButtonSound
+    clip: {fileID: 8300000, guid: 707c3546d5a6d7943bcd9b57c4e07a06, type: 3}
+    loop: 0
+    volume: 5
+    pitch: 1
+    source: {fileID: 0}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: 9d294c6a3d3d41e4c91fd83a01cf478a, type: 3}
+    loop: 0
+    volume: 5
+    pitch: 1
+    source: {fileID: 0}
+  - name: BurgerMistake
+    clip: {fileID: 8300000, guid: e1e4ff698fbe994468f0b6461a647086, type: 3}
+    loop: 0
+    volume: 5
+    pitch: 1
+    source: {fileID: 0}
+  - name: BurgerMade
+    clip: {fileID: 8300000, guid: 377278656ed97be4bb260dd608fe991e, type: 3}
+    loop: 0
+    volume: 5
+    pitch: 1
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: dbb22c2367003e545abb8a0d34b5549c, type: 3}
+    loop: 1
+    volume: 0.26
+    pitch: 1
+    source: {fileID: 0}
